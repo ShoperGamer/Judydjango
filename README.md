@@ -23,4 +23,4 @@ Hello everyone, this is a mini-project concerning user data management. It's a f
 > [https://github.com/ShoperGamer/MySlider](https://github.com/ShoperGamer/MySlider)
 
 ## Picture
-(https://raw.githubusercontent.com/ShoperGamer/Judydjango/refs/heads/main/judy%20django/judy/Screenshot%202025-03-30%20175220.png)
+![enter image description here](https://raw.githubusercontent.com/ShoperGamer/Judydjango/refs/heads/main/judy%20django/judy/Screenshot%202025-03-30%20175220.png)
