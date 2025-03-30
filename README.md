@@ -21,3 +21,6 @@ Hello everyone, this is a mini-project concerning user data management. It's a f
 ## Previous Mini-project (MySlider)
 
 > [https://github.com/ShoperGamer/MySlider](https://github.com/ShoperGamer/MySlider)
+
+## Picture
+https://github.com/ShoperGamer/Judydjango/blob/main/judy%20django/judy/Screenshot%202025-03-30%20175220.png?raw=true
