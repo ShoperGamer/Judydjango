@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}
+  <title>แบบฟอร์มบันทึกข้อมูลประชากร</title>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show">
+      {{ message }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    {% endfor %}
+  {% endif %}
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+          <h2 class="text-center mb-0">แก้ไขข้อมูลประชากร</h2>
+        </div>
+        
+        <div class="card-body">
+          <form method="post" action="{% url 'edit' person.id %}"  class="needs-validation" novalidate>
+            {% csrf_token %}
+            
+            <div class="mb-3">
+              <label for="name" class="form-label">ชื่อประชากร</label>
+              <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                class="form-control" 
+                placeholder="กรุณากรอกชื่อ"
+                required
+                value="{{person.name}}"
+              >
+              <div class="invalid-feedback">
+                กรุณากรอกชื่อประชากร
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="age" class="form-label">อายุ</label>
+              <input 
+                type="number" 
+                name="age" 
+                id="age" 
+                class="form-control" 
+                placeholder="กรุณากรอกอายุ"
+                min="1"
+                max="120"
+                required
+                value="{{person.age}}"
+              >
+              <div class="invalid-feedback">
+                กรุณากรอกอายุระหว่าง 1-120 ปี
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-success btn-lg">
+                <i class="bi bi-save-fill"></i> แก้ไขข้อมูล
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
