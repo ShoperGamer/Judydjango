@@ -10,6 +10,10 @@
 
 > https://github.com/ShoperGamer/MySlider
 
+## Preview
+
+[Click Me](https://youtube.com/shorts/nJ3HdwsgFFE?si=j3EH1Q8-zSjJMw15)
+
 ## English
 
 Hello everyone, this is a mini-project concerning user data management. It's a form that allows users to enter, edit, and delete information. This mini-project is my first work integrating the Django framework with Bootstrap 5. In this form, users cannot enter a negative age or an age exceeding 200 years. An older mini-project has also been incorporated into this one.
@@ -21,6 +25,10 @@ Hello everyone, this is a mini-project concerning user data management. It's a f
 ## Previous Mini-project (MySlider)
 
 > [https://github.com/ShoperGamer/MySlider](https://github.com/ShoperGamer/MySlider)
+
+## Preview
+
+[Click Me](https://youtube.com/shorts/nJ3HdwsgFFE?si=j3EH1Q8-zSjJMw15)
 
 ## Picture
 ![enter image description here](https://raw.githubusercontent.com/ShoperGamer/Judydjango/refs/heads/main/judy%20django/judy/Screenshot%202025-03-30%20175220.png)
